@@ -1,0 +1,317 @@
+/*
+	DYNAMIX ESPORTS (C) 2015
+	by SOTURIYARTS
+	VERSION 1.0
+*/
+
+/* GLOBAL */
+
+body{
+	background-image: url(background.jpg);
+	background-repeat: repeat;
+	font-family: OpenSans;
+	font-size: 12px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset{
+	border: none;
+}
+
+@font-face{ 
+	font-family: 'Franchise';
+    src: url('Franchise-Free-Bold.otf') format('opentype'); 
+}
+
+.wrapper{
+	width: 1062px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear:both;
+}
+
+.hidden{
+	position:absolute;
+	clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+/* HEADER */
+
+header{
+	width: 100%;
+	float: left;
+	min-width: 1062px;
+}
+
+.wrapper_head{
+	width: 1062px;
+	margin: 0 auto;
+	height: 259px;
+	background-image: url(background_head.jpg);
+	background-repeat: repeat-x;
+}
+
+.logo_head{
+	float: left;
+	margin-left: 57px;
+	margin-top: 83px;
+}
+
+.title{
+	font-family: Franchise;
+	font-size: 40px;
+	color: white;
+	float: left;
+	margin-left: 21px;
+	margin-top: 120px;
+}
+
+.slogan{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #5eb0d4;
+	float: left;
+	margin-left: -206px;
+	margin-top: 155px;
+}
+
+.header_right{
+	float: right;
+}
+
+.mainsponsor{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #5eb0d4;
+	list-style: none;
+	text-align: center;
+	margin-left: -650px;
+	margin-top: 70px;
+}
+
+.sponsor_placeholder{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-top: -90px;
+	margin-right: 200px;
+}
+
+/* NAVIGATION */
+
+nav{
+	width: 100%;
+	height: 58px;
+	float: left;
+	min-width: 1062px;
+	padding: 1px 0 0 0;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	border-right: 1px solid #15262d;
+}
+
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 21px 22px 19px 22px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.wrapper_nav{
+	margin: 0 auto;
+	width: 1062px;
+	height: 58px;
+	background-image: url(background_navi.jpg);
+	background-repeat: repeat-x;
+}
+
+nav ul li a:hover{
+	color: #5eb0d4;
+}
+
+/* SLIDER_PLACEHOLDER */
+
+/* INFOBOXEN */
+
+.wrapper_info{
+	margin: 0 auto;
+	width: 1062px;
+	height: 239px;
+	background-image: url(background_info.jpg);
+	background-repeat: no-repeat;
+}
+
+	/* TOPMATCH */
+.topmatch{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.upcoming{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+
+.livestream{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #5eb0d4;
+}
+
+	/* FACEBOOK */
+.facebook{
+	float: left;
+	margin-left: 214px;
+	margin-top: 10px;
+}
+
+	/* LOGIN */
+.login{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.usercenter{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+
+.welcome{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: #5eb0d4;
+}
+
+/* CONTENT */
+
+.wrapper_content{
+	width: 1062px;
+	margin: 0 auto;
+	min-height:500px;
+	background-color: white;
+}
+
+.content{}
+.sidebar{}
+.aside{}
+
+/* SPONSORS */
+
+.wrapper_sponsors{
+	width: 1062px;
+	height: 131px;
+	margin: 0 auto;
+	background-image: url(background_sponsors.jpg);
+	background-repeat: no-repeat;
+}
+
+.sponsors{
+	padding: 0;
+	margin: 0;
+}
+
+.sponsors_items{
+	list-style: none;
+	float: left;
+	margin: 45px 55px 0 55px;
+}
+
+.sponsors_links{
+	text-decoration: none;
+	font-family: 'Franchise';
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+}
+
+/* MEDIA BOXEN */
+
+.wrapper_media{
+	width: 1062px;
+	height: 360px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+/* FOOTER */
+
+.wrapper_footer{
+	width: 1062px;
+	height: 243px;
+	margin: 0 auto;
+	background-image: url(background_footer.jpg);
+	background-repeat: no-repeat;
+}
+
+.copyright{
+	float:left;
+	margin-top: 17px;
+	margin-left: 10px;
+}
+
+.copytext{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #26545f;
+}
+
+.rights{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #26545f;
+}
+
+.small_nav{
+	float: left;
+	margin-top: 26px;
+	margin-left: 490px;
+}
+
+.nav2{
+}
+
+.nav2_element{
+	float:left;
+	list-style: none;
+	margin-right: 15px;
+}
+
+.nav2_link{
+	text-decoration: none;
+	color: #26545f;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.nav2_link:hover{
+	color: white;
+}
